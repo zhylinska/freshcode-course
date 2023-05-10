@@ -2,64 +2,132 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>My Day</title>
+
+    <style>
+        body {
+            max-width: 1440px;
+            margin: 0 auto;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            padding: 2rem;
+        }
+
+        h1 {
+            display: flex;
+            margin: 0;
+            font-size: 5rem;
+            text-transform: uppercase;
+            align-items: center;
+            justify-content: center;
+            background: url("./img/my-day.jpg") no-repeat center center/cover;
+            height: 20vh;
+        }
+
+        section {
+            padding-top: 2rem;
+        }
+
+        .section-name {
+            text-transform: uppercase;
+        }
+
+       img {
+            width: 50%;
+            height: auto;
+        }
+       p {
+           display: flex;
+           width: 50%;
+           align-items: center;
+       }
+
+        .section-content {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+        }
+    </style>
 </head>
 <body>
 <h1>my day</h1>
 <section>
     <h2 class="section-name">morning</h2>
-    <div class="section content">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aut, consequatur cum eos, fugiat inventore laboriosam laborum nobis numquam quae repellendus sed sequi sunt ut voluptas voluptate! Beatae, nemo- Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cumque delectus explicabo harum officiis quae, quam quis. Cum ducimus facilis incidunt, ipsam maiores nisi obcaecati pariatur quaerat sed suscipit.</p>
-        <img src="./img/breakfast.jpg" alt="breakfast-img">
-        <ul>
-            <li>Lorem ipsum dolor</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum</li>
-        </ul>
+    <div class="section-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aut, consequatur cum eos, fugiat
+            inventore laboriosam laborum nobis numquam quae repellendus sed sequi sunt ut voluptas voluptate! Beatae,
+            nemo- Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cumque delectus explicabo harum
+            officiis quae, quam quis. Cum ducimus facilis incidunt, ipsam maiores nisi obcaecati pariatur quaerat sed
+            suscipit.</p>
+        <img alt="breakfast-img" src="./img/breakfast.jpg">
     </div>
+    <ul>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor sit</li>
+        <li>Lorem ipsum</li>
+    </ul>
+
 </section>
 <section>
     <h2 class="section-name">afternoon</h2>
-    <div class="section content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aut, consequatur cum eos, fugiat inventore laboriosam laborum nobis numquam quae repellendus sed sequi sunt ut voluptas voluptate! Beatae, nemo- Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cumque delectus explicabo harum officiis quae, quam quis. Cum ducimus facilis incidunt, ipsam maiores nisi obcaecati pariatur quaerat sed suscipit.</p>
-        <img src="./img/lunch.jpg" alt="lunch-img">
-        <ul>
-            <li>Lorem ipsum dolor</li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum
+    <div class="section-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aut, consequatur cum eos, fugiat
+            inventore laboriosam laborum nobis numquam quae repellendus sed sequi sunt ut voluptas voluptate! Beatae,
+            nemo- Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cumque delectus explicabo harum
+            officiis quae, quam quis. Cum ducimus facilis incidunt, ipsam maiores nisi obcaecati pariatur quaerat sed
+            suscipit.</p>
+        <img alt="lunch-img" src="./img/lunch.jpg">
+    </div>
+    <ul>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor sit</li>
+        <li>Lorem ipsum
             <ul>
                 <li>Lorem ipsum dolor</li>
                 <li>Lorem ipsum dolor sit</li>
-            </ul></li>
-        </ul>
-    </div>
+            </ul>
+        </li>
+    </ul>
+
 </section>
 <section>
     <h2 class="section-name">evening</h2>
-    <div class="section content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aut, consequatur cum eos, fugiat inventore laboriosam laborum nobis numquam quae repellendus sed sequi sunt ut voluptas voluptate! Beatae, nemo- Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cumque delectus explicabo harum officiis quae, quam quis. Cum ducimus facilis incidunt, ipsam maiores nisi obcaecati pariatur quaerat sed suscipit.</p>
-        <img src="./img/it-course.jpeg" alt="it-course-img">
-        <ul>
-            <li>Lorem ipsum dolor
+    <div class="section-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aut, consequatur cum eos, fugiat
+            inventore laboriosam laborum nobis numquam quae repellendus sed sequi sunt ut voluptas voluptate! Beatae,
+            nemo- Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cumque delectus explicabo harum
+            officiis quae, quam quis. Cum ducimus facilis incidunt, ipsam maiores nisi obcaecati pariatur quaerat sed
+            suscipit.</p>
+        <img alt="it-course-img" src="./img/it-course.jpeg">
+    </div>
+    <ul>
+        <li>Lorem ipsum dolor
             <ul>
                 <li>Lorem</li>
                 <li>Lorem ipsum dolor</li>
-            </ul></li>
-            <li>Lorem ipsum dolor sit</li>
-            <li>Lorem ipsum</li>
-        </ul>
-    </div>
+            </ul>
+        </li>
+        <li>Lorem ipsum dolor sit</li>
+        <li>Lorem ipsum</li>
+    </ul>
+
 </section>
 <section>
     <h2 class="section-name">night</h2>
-    <div class="section content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aut, consequatur cum eos, fugiat inventore laboriosam laborum nobis numquam quae repellendus sed sequi sunt ut voluptas voluptate! Beatae, nemo- Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cumque delectus explicabo harum officiis quae, quam quis. Cum ducimus facilis incidunt, ipsam maiores nisi obcaecati pariatur quaerat sed suscipit.</p>
-        <img src="./img/sleeping.jpg" alt="sleeping-dog-img">
-        <ul>
-            <li>Lorem ipsum dolor</li>
-            <li>Lorem ipsum dolor sit</li>
-        </ul>
+    <div class="section-content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam aut, consequatur cum eos, fugiat
+            inventore laboriosam laborum nobis numquam quae repellendus sed sequi sunt ut voluptas voluptate! Beatae,
+            nemo- Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus cumque delectus explicabo harum
+            officiis quae, quam quis. Cum ducimus facilis incidunt, ipsam maiores nisi obcaecati pariatur quaerat sed
+            suscipit.</p>
+        <img alt="sleeping-dog-img" src="./img/sleeping.jpg">
     </div>
+    <ul>
+        <li>Lorem ipsum dolor</li>
+        <li>Lorem ipsum dolor sit</li>
+    </ul>
+
 </section>
 </body>
 </html>
