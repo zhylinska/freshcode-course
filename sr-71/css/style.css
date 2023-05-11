@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+ a {
+    text-decoration: none;
+    color: hotpink;
+    font-weight: bold;
+}
+ h1, h2, h3, h4, h5, h6 {
+     text-transform: uppercase;
+     padding-bottom: 2rem;
+ }
+ img {
+     margin: 2rem 0;
+ }
+ ul {
+     padding: 1rem 2rem;
+ }
+ p {
+     text-align: justify;
+ }
+ .italics {
+     font-style: italic;
+ }
