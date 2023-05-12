@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    border: 2px dotted black;
+}
+
+.red-border {
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid #ca4242;
+    margin: 2.5rem 2rem 2rem 2rem;
+}
+
+.greed-border {
+    width: 12rem;
+    height: max-content;
+    margin: 2.5rem 2rem 2rem 2rem;
+    border: 2px solid green;
+    padding: 2rem;
+}
