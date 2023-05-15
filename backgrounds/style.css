@@ -21,4 +21,3 @@ div:nth-child(even) {
 div:nth-child(3n+3) {
     background: blue;
 }
-div:nth-child(odd+5)
