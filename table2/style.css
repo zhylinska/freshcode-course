@@ -12,18 +12,24 @@ div {
 }
 .first {
     top: 0;
+    border-bottom-right-radius: 50%;
 }
 .second {
     top: 0;
     right: 0;
+    border-bottom-left-radius: 50%;
+
 }
 .third {
     bottom: 0;
+    border-top-right-radius: 50%;
 }
 .forth {
     bottom: 0;
     right: 0;
+    border-top-left-radius: 50%;
 }
 p {
     margin: 200px;
+
 }
