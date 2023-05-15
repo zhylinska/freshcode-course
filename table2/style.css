@@ -1,0 +1,29 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+div {
+    width: 100px;
+    height: 100px;
+    background: green;
+    text-align: center;
+    font-size: 2rem;
+    position: fixed;
+}
+.first {
+    top: 0;
+}
+.second {
+    top: 0;
+    right: 0;
+}
+.third {
+    bottom: 0;
+}
+.forth {
+    bottom: 0;
+    right: 0;
+}
+p {
+    margin: 200px;
+}
