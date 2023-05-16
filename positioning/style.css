@@ -22,11 +22,12 @@ body {
 .item {
     padding: 1rem;
     position: relative;
-}
 
-.item:hover {
+}
+.nav-item:hover .wd-item:hover, .nav-item:hover, .nav-item:hover .wd-item:hover .tutorial-item:hover {
     background: #b52a2a;
 }
+
 
 .nav-list {
     position: fixed;
@@ -52,7 +53,6 @@ body {
     display: flex;
     flex-direction: column;
     top: 3.7rem;
-
 }
 
 .wd-item:hover .tutorial-list {
