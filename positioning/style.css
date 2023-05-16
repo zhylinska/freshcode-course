@@ -20,11 +20,15 @@ body {
 
 }
 .item {
-    padding: 1rem;
-    position: relative;
 
+    position: relative;
 }
-.nav-item:hover .wd-item:hover, .nav-item:hover, .nav-item:hover .wd-item:hover .tutorial-item:hover {
+.link {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.link:focus {
     background: #b52a2a;
 }
 
