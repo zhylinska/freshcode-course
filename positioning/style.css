@@ -7,21 +7,21 @@ body {
     font-size: 1.5rem;
     box-sizing: border-box;
 }
-.nav {
-    width: 100%;
 
-}
 .list {
     list-style: none;
+
 }
 .link {
     text-decoration: none;
     color: azure;
     cursor: pointer;
     white-space: nowrap;
+
 }
 .item {
     padding: 1rem;
+    position: relative;
 }
 
 .item:hover {
@@ -38,30 +38,33 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
-
 .wd-list, .tutorial-list, .other-list {
     position: absolute;
     top: 3.7rem;
+    left: 0;
     background: coral;
     display: none;
     flex-direction: column;
+    width: 100%;
 }
 
 .nav-item:hover .wd-list {
     display: flex;
     flex-direction: column;
+    top: 3.7rem;
+
 }
 
 .wd-item:hover .tutorial-list {
     display: flex;
-    top: 7.35rem;
-    left: 8.5rem;
+    top: 0;
+    left: 10.5rem;
 }
 
 .tutorial-item:hover .other-list {
     display: flex;
-    top: 7.37rem;
-    left: 9.3rem;
+    top: 0;
+    left: 10.5rem;
 }
 
 p {
