@@ -5,24 +5,27 @@
 }
 
 body {
-    background: url("img/sky.jpeg") no-repeat center center/cover;
+    background: url("img/sky.jpeg") center center/cover;
     font-family: 'M PLUS 1p', sans-serif;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 1rem;
+    flex-wrap: wrap;
 }
 
 .card-container {
     height: 75vh;
-    width: 45vw;
+    max-width: 45vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: white;
     border-radius: 10px;
+    margin: 2rem 1rem;
 }
 
 .card {
@@ -35,7 +38,6 @@ body {
     position: relative;
     display: flex;
     border-radius: 10px;
-
 }
 
 .avatar {
