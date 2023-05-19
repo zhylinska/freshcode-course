@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    line-height: 4rem;
+    color: #2a2828;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    justify-content: center;
+    text-align: left;
+}
+
+input {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+ .about-block {
+    position: relative;
+
+}
+
+ .about-block input {
+    display: none;
+    position: absolute;
+}
+ .about-block label {
+    padding-left: 20px;
+}
+
+ .about-block label::before {
+    content: "";
+    display: block;
+    border: 1px solid #554f4f;
+    width: 12px;
+    height: 12px;
+    border-radius: 2px;
+    position: absolute;
+    top: 1.6rem;
+    left: 0;
+}
+ .about-block label::after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+    margin-left: 1px;
+    background: url("img/check.png") no-repeat center center/cover;
+    background-size: 12px 12px;
+    border-radius: 2px;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    display: none;
+}
+ .about-block:hover label::after {
+    display: block;
+}
+
+
+.send {
+    margin-top: 2rem;
+    width: max-content;
+    font-size: 1.3rem;
+    padding: 0.5rem 3rem;
+    background: #ebe3e3;
+    border: 2px solid grey;
+}
+.send:hover {
+    background: #bab9b9;
+}
