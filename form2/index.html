@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <title>form2</title>
+</head>
+<body>
+<form>
+    <h1>Travel reservation form</h1>
+    <h3>* denotes mandotory</h3>
+
+    <label>Full name*:<input name="name" placeholder="FirstName LastName" required type="text"></label>
+    <label>Email address*:<input name="address" placeholder="EMAIL_ADDRESS" required type="text"></label>
+    <label for="tour">Select Tour Package*:</label>
+    <select id="tour" name="tour package" required>
+        <option>Goa</option>
+        <option>Bali</option>
+        <option>Malediven</option>
+    </select>
+    <label>Arrival date*:<input name="date" required type="date"></label>
+    <label>Number of persons*:<input name="number of persons" required type="number"></label>
+    <label>What would you want to avail?*</label>
+    <div class="avail">
+        <label>Boarding<input name="boardind" type="checkbox"></label>
+
+        <label for="fooding">Fooding<input id="fooding" name="fooding" type="checkbox"></label>
+
+        <label>Sight seeing<input name="sight seeing" type="checkbox"></label>
+    </div>
+
+    <label>Discount Coupon code:<input name="discount coupone code" type="text"></label>
+
+    <label>Terms and conditions*</label>
+    <div class="terms">
+        <label><input checked id="agree" name="terms and conditions" type="radio">I agree</label>
+        <label><input id="disagree" name="terms and conditions" type="radio">I disagree</label>
+    </div>
+    <button class="submite" type="submit">Complete reservation</button>
+</form>
+</body>
+</html>
