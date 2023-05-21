@@ -21,46 +21,34 @@
         </div>
         <div class="form-block">
             <label for="male">Male</label>
-            <input id="male" name="sex" type="radio" checked>
+            <input checked id="male" name="sex" type="radio">
             <label for="female">Female</label>
             <input id="female" name="sex" type="radio">
         </div>
-
-        <fieldset>
-            <legend>About yourself:</legend>
-            <div class="about">
-
-                    <div class="about-block">
-                        <input id="lesseighteen" name="age" required type="radio" value="less than 18" checked>
-                        <label for="lesseighteen">Less than 18</label>
-                    </div>
-                    <div class="about-block">
-                        <input id="eighteen" name="age" required type="radio" value="from 18 to 35">
-                        <label for="eighteen">From 18 to 35</label>
-                    </div>
-                    <div class="about-block">
-                        <input id="morethirtyfive" name="age" required type="radio" value="more than 35">
-                        <label for="morethirtyfive">More than 35</label>
-                    </div>
-
-
-                <div class="about-block">
-                    <input id="marital-status" name="marital-status" required type="checkbox" value="married" checked>
-                    <label for="marital-status">Married</label>
-                </div>
-
-
-                <div class="about-block">
-                    <input id="pets" name="pets" type="checkbox" value="I have a pet" checked>
-                    <label for="pets">I have a pet</label>
-                </div>
-
+        <p>About yourself:</p>
+        <div class="about">
+            <div>
+                <input class="hide" checked id="less" name="age" type="radio" value="less than 18">
+                <label class="about-block" for="less"> Less than 18</label>
             </div>
-
-        </fieldset>
-
+            <div>
+                <input class="hide" id="from" name="age" type="radio" value="from 18 to 35">
+                <label class="about-block" for="from"> From 18 to 35</label>
+            </div>
+            <div>
+                <input class="hide" id="more" name="age" type="radio" value="more than 35">
+                <label class="about-block" for="more"> More than 35</label>
+            </div>
+            <div>
+                <input class="hide" checked id="marital-status" name="marital-status" type="checkbox" value="married">
+                <label class="about-block" for="marital-status"> Married</label>
+            </div>
+            <div>
+                <input class="hide" checked id="pets" name="pets" type="checkbox" value="I have a pet">
+                <label class="about-block" for="pets"> I have a pet</label>
+            </div>
+        </div>
         <button class="send" type="submit">Send</button>
-
     </div>
 </form>
 </body>

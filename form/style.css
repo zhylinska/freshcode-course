@@ -6,7 +6,7 @@
 
 body {
     font-size: 1.5rem;
-    line-height: 4rem;
+    line-height: 3rem;
     color: #2a2828;
 }
 
@@ -25,6 +25,9 @@ body {
     justify-content: center;
     text-align: left;
 }
+.form-block {
+    margin: 1rem 0;
+}
 
 input {
     padding: 0.5rem;
@@ -34,23 +37,18 @@ input {
 .about {
     display: flex;
     flex-direction: column;
-    padding-left: 1rem;
 }
 
  .about-block {
     position: relative;
-
+     padding-left: 20px;
 }
 
- .about-block input {
+.hide {
     display: none;
-    position: absolute;
-}
- .about-block label {
-    padding-left: 20px;
 }
 
- .about-block label::before {
+ .about-block::before {
     content: "";
     display: block;
     border: 1px solid #554f4f;
@@ -58,27 +56,27 @@ input {
     height: 12px;
     border-radius: 2px;
     position: absolute;
-    top: 1.6rem;
-    left: 0;
-}
- .about-block label::after {
-    content: "";
-    width: 12px;
-    height: 12px;
-    margin-top: 3px;
-    margin-left: 1px;
-    background: url("img/check.png") no-repeat center center/cover;
-    background-size: 12px 12px;
-    border-radius: 2px;
-    position: absolute;
-    top: 1.5rem;
-    left: 0;
-    display: none;
-}
- .about-block:hover label::after {
-    display: block;
+     top: 0.3rem;
+     left: 0;
 }
 
+.about-block::after {
+   content: "";
+   width: 12px;
+   height: 12px;
+   margin-top: 3px;
+   margin-left: 1px;
+   background: url("img/check.png") no-repeat center center/cover;
+   background-size: 12px 12px;
+   border-radius: 2px;
+   position: absolute;
+   top: 0.2rem;
+   left: 0;
+   display: none;
+}
+.hide:checked + .about-block::after  {
+   display: block;
+}
 
 .send {
     margin-top: 2rem;
