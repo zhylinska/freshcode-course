@@ -1,0 +1,92 @@
+:root {
+    --orange-col: #926239;
+    --white-col: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Almarai', sans-serif;
+    font-size: 20px;
+    color: var(--orange-col);
+}
+
+.showcase {
+    background: url("./img/shell.jpg") no-repeat center center/cover;
+    height: 100vh;
+    width: 100vw;
+    padding: 3rem;
+
+}
+
+.showcase h1 {
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    padding-top: 40vh;
+}
+
+.showcase p {
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.btn {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    background: transparent;
+    border-radius: 10px;
+    color: var(--orange-col);
+    border: solid 2px var(--orange-col);
+    display: block;
+    margin: 0 auto;
+
+}
+
+.btn:hover {
+    background: var(--orange-col);
+    color: var(--white-col)
+
+}
+
+.block {
+    padding: 2rem 2rem 3rem 2rem;
+}
+
+.orange {
+    background: var(--orange-col);
+    color: var(--white-col);
+}
+
+.white {
+    background: var(--white-col);
+    color: var(--orange-col);
+}
+
+.one p, .two p{
+    text-align: center;
+}
+.three {
+    display: block;
+}
+.three .block {
+    width: 33%;
+    float: right;
+}
+
+.three .block {
+    float: right;
+}
+.three > .block {
+    padding-bottom: 2rem;
+}
+@media screen and (max-width: 576px) {
+    .three .block {
+        float: none;
+        width: 100%;
+    }
+}
