@@ -23,15 +23,19 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 }
 
 .showcase h1 {
     font-size: 3rem;
     padding-bottom: 1rem;
+    text-align: center;
 }
 
 .showcase p {
     padding-bottom: 2rem;
+    text-align: center;
+
 }
 
 .btn {
@@ -75,4 +79,7 @@ body {
 
 .three > .block {
     padding-bottom: 2rem;
+}
+@media screen and (max-width: 576px) {
+   .three {flex-direction: column}
 }
